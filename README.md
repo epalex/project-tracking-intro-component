@@ -10,8 +10,8 @@ Users should be able to:
 
 ## Links
 
-- Solution URL: 
-- Live Site URL: 
+- Solution URL: https://github.com/epalex/project-tracking-intro-component
+- Live Site URL: https://epalex.github.io/project-tracking-intro-component/
 
 ## Built with
 
