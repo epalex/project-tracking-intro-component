@@ -23,3 +23,8 @@ Users should be able to:
 ## Author
 
 - Frontend Mentor - [@epalex](https://www.frontendmentor.io/profile/epalex)
+
+## Open issues
+
+- background pattern
+- mobile navigation toggle

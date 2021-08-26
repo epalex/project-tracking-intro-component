@@ -99,7 +99,7 @@ h1 {
 
 .demo:hover {
   opacity: 0.75;
-  color: darkred;
+  cursor: pointer;
 }
 
 a {
