@@ -120,3 +120,34 @@ footer {
   margin-bottom: 20px;
   margin-top: 32px;
 }
+
+@media screen and (min-width: 992px) {
+  .container {
+    width: 75%;
+  }
+
+  .illustration {
+    margin: unset;
+    width: 50%;
+  }
+
+  .illustration img {
+    margin: unset;
+    height: 450px;
+  }
+
+  .illustration-and-insights {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+  }
+
+  h1 {
+    width: 60%;
+  }
+
+  .agile {
+    width: 50%;
+  }
+}
