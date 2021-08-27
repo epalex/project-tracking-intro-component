@@ -19,6 +19,10 @@ header {
   justify-content: space-between;
 }
 
+header nav {
+  display: none;
+}
+
 .illustration {
   margin-bottom: 16px;
 }
@@ -137,7 +141,7 @@ footer {
   }
 
   .illustration-and-insights {
-    margin-top: 90px;
+    margin-top: 150px;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-evenly;
@@ -145,9 +149,48 @@ footer {
 
   h1 {
     width: 60%;
+    margin-bottom: 32px;
   }
 
   .agile {
     width: 50%;
+    margin-bottom: 60px;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  header nav {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-container {
+    display: flex;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  .nav-item {
+    color: #242942;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    margin-right: 42px;
+  }
+
+  .login {
+    opacity: 0.5;
+    margin-left: 42px;
+  }
+
+  .nav-item:hover {
+    cursor: pointer;
+    text-decoration: underline;
   }
 }
